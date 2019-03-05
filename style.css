@@ -7,15 +7,88 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar ul li a{
-    margin: 7px 7px 7px 7px;
+.header{
+    background-color: #6c757d;
+    height:4rem;
 }
 
-.navbar img{
+
+.header img{
     width: 9rem;
-    height:5rem;
+    height:3rem;
 }
 
-.navbar-brand{
-    margin-left: 80px;
+
+
+
+  .header{
+
+    display:flex;
+    justify-content: space-around;
+
+    
+  }
+
+
+  #menu-deroulant, #menu-deroulant ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
 }
+#menu-deroulant {
+/* on centre le menu dans la page */
+    text-align: left;
+    
+}
+#menu-deroulant li {
+/* on place les liens du menu horizontalement */
+    display: inline-block;
+    width:169px;
+}
+
+#menu-deroulant li:hover{
+  
+}
+#menu-deroulant ul li {
+/* on enlève ce comportement pour les liens du sous menu */
+    display: inherit;
+   
+}
+#menu-deroulant a {
+    text-decoration: none;
+    display: block;
+	color:black;
+}
+#menu-deroulant ul {
+    position: absolute;
+/* on cache les sous menus complètement sur la gauche */
+    left: -999em;
+    text-align: center;
+    z-index: 1000;
+    background-color: #6c757d;
+}
+#menu-deroulant li:hover ul {
+/* Au survol des li du menu on replace les sous menus */
+    left: auto;
+    
+}
+
+#menu-deroulant ul li a:hover{
+    color:white;
+}
+
+.menu{
+    line-height: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+      display:flex;
+      flex-flow: wrap;
+    }
+
+    .title_blog h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+  }

@@ -7,7 +7,27 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.navbar ul li a{
+    margin: 7px 7px 7px 7px;
+}
+
 .navbar img{
     width: 9rem;
-    height:5rem;
+    height:4rem;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+.dropdown{
+    border:1px solid rgba(0,0,0,.15)
+}
+
+.nav-link a:hover{
+    color:gold;
+}
+
+.dropdown-item{
+    width: 232.83;
 }

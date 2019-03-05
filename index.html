@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -33,45 +31,29 @@
  <!-- enTetes -->
 
 
-    <div class="container">
+    <div class="container-fluid">
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <img src="../projet1/img/logo.png" alt="logo"><a class="navbar-brand" href="#">Decouvrez mon Blog</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav mr-auto">
-               
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Découvrir mes roads trip
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="">Baleares</a>
-                    <a class="dropdown-item" href="#">Corse</a>
-                    <a class="dropdown-item" href="#">Sardaigne</a>
-                    <a class="dropdown-item" href="#">Sicile</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contactez-moi</a>
-                    </li>
-                  </div>
+      <div class="header">
+        <div class="mylogo">
+          <a href="index.html"><img class="logo" src="../projet1/img/logo.png" alt="logo"></a>
+        </div>
+        <div class="title_blog">
+            <h1>Le Globbetroter sudiste</h1>
+        </div>
+
+        <div class="menu">
+            <ul id="menu-deroulant">
+                <li><a href="#">Decouvrez Mon Roadrip</a>
+                  <ul>
+                    <li><a href="baleares.html">Baléares</a></li>
+                    <li><a href="corse.html">Corse</a></li>
+                    <li><a href="sardaigne.html">Sardaigne</a></li>
+                    <li><a href="sicile.html">Sicile</a></li>
+                  </ul>
                 </li>
-              </ul>
-              
-            </div>
-          </nav>
-
-
-
-
-
-
-
-
+        </div>
+      </div>
+       
 
 
 
@@ -240,14 +222,6 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
         <script>
-
-            $('#carousel-example-generic').carousel({
-
-                interval: 2000,
-
-                pause: null
-
-            })
 
         </script>
 
