@@ -30,29 +30,8 @@
     
     
     <!-- enTetes -->
-<h1>Me contacter</h1> 
 
-    <div class="container">
-      <h3>Formulaire de contact</h3>
-        <div class="form-group row">
-         <form method="post" action="">
-                <label for="name">Votre nom (obligatoire)</label> :<input type="text" name="nom"/>
-        </div>
-        <div class="form-group row">   
-                <label for="email">Votre email (obligatoire)</label> :<input type="text" name="email"/>
-        </div>
-        <div class="form-group row object">
-                <label for="object">Objet</label> :<input type="text" name="object"/>
-        </div>
-            
-        <div class="form-group row">
-                <textarea name="contacter" id="contacter"></textarea>
-        </div>   
-        <div class="form-group row">
-                <input type="submit" value="envoyer" />
-        </div>     
-    </div>
-        </form>
+    
 
 
 
@@ -88,7 +67,40 @@
 
 
         <!-- Formulaire  -->
+<h1>Me contacter</h1> 
 
+    <div class="container">
+      <h3>Formulaire de contact</h3>
+        <div class="form-group name">
+           <form method="post" action="">
+             <label for="name">Votre nom (obligatoire)</label></br> 
+             <input type="text" name="nom" required/>
+           </form>
+        </div>
+    
+        <div class="form-group row email">
+            <form method="post" action="">
+              <label for="email">Votre email (obligatoire)</label></br>
+              <input type="text" name="email" required/>
+            </form>
+        </div>
+    
+        <div class="form-group row object">
+            <form method="post" action="">
+              <label for="object">Objet</label></br>
+              <input type="text" name="object"required/>
+            </form>
+        </div>
+            
+        <div class="form-group row text">
+            <textarea name="contacter" id="contacter" rows="10" cols="60"></textarea>
+        </div> 
+
+        <div class="form-group_send">
+                <input type="submit" value="envoyer" width="100" height="30"/>
+        </div>
+    
+    </div>
 
 
 

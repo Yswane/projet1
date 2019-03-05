@@ -1,3 +1,31 @@
-.container {
-    width: 50%;
+h1 {
+    padding-left: 0.5rem;
+}
+
+.container   {
+    padding-left: 1.5rem;
+}
+
+.container h3   {
+    margin-left: -1rem; 
+}
+
+.container input   {
+    width: 15rem; 
+}
+
+.form-group_send   {
+    margin-left: -1rem;
+    border-radius: 10rem;    
+}
+
+.name {
+    margin-left: -1rem; 
+}
+input {
+    border-radius:5px;
+}
+textarea {
+    border-radius: 5px;
+    margin-right: 1rem;
 }
