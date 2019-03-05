@@ -7,15 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-.navbar ul li a{
-    margin: 7px 7px 7px 7px;
-}
-
 .navbar img{
     width: 9rem;
     height:5rem;
-}
-
-.navbar-brand{
-    margin-left: 80px;
 }
