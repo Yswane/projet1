@@ -1,0 +1,51 @@
+h1 {
+    padding-left: 0.5rem;
+}
+
+.container-fluid {
+    padding-left: 1.5rem;
+}
+
+.container-fluid h3 {
+    margin-left: -1rem;
+}
+
+.container-fluid input {
+    width: 15rem;
+}
+
+.formulaire {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.form-group_send {
+    margin-left: -1rem;
+    border-radius: 10rem;
+}
+
+.name {
+    margin-left: -1rem;
+}
+
+input {
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width:768px) {
+    .container-fluid {
+        padding-left: 3rem;
+    } 
+}
+
+@media screen and (min-width:769px) {
+    .container-fluid {
+    max-width: 50rem;
+    padding-left: 10rem;
+    }
+}
