@@ -8,14 +8,15 @@ body{
 }
 
 .header{
-    background-color: #6c757d;
+    
     height:4rem;
 }
 
 
-.header img{
+.mylogo img{
     width: 9rem;
-    height:3rem;
+    height:2rem;
+    margin-top: 1rem;
 }
 
 
@@ -25,63 +26,51 @@ body{
 
     display:flex;
     justify-content: space-around;
+    background-color: lightgrey;
 
     
-  }
-
-
-  #menu-deroulant, #menu-deroulant ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-#menu-deroulant {
-/* on centre le menu dans la page */
-    text-align: left;
-    
-}
-#menu-deroulant li {
-/* on place les liens du menu horizontalement */
-    display: inline-block;
-    width:169px;
 }
 
-#menu-deroulant li:hover{
-  
+.title_blog h1{
+    font-size: 2rem;
+    line-height: 4rem;
 }
-#menu-deroulant ul li {
-/* on enlève ce comportement pour les liens du sous menu */
-    display: inherit;
+
+.bg-light {
+    background-color:lightgrey !important;
+}
+
+.navbar{
+    color:black;
+}
+
+.dropdown-item{
+    width:50%;
+}
+
+.card-header{
+    background-color: lightgrey;
+}
+
+
+
+.card{
+    margin-top: 12rem; 
+}
+.presentation{ 
+    padding: 2rem 2rem 2rem 2rem;  
+    display:flex;
+    justify-content:space-around;
    
 }
-#menu-deroulant a {
-    text-decoration: none;
-    display: block;
-	color:black;
-}
-#menu-deroulant ul {
-    position: absolute;
-/* on cache les sous menus complètement sur la gauche */
-    left: -999em;
-    text-align: center;
-    z-index: 1000;
-    background-color: #6c757d;
-}
-#menu-deroulant li:hover ul {
-/* Au survol des li du menu on replace les sous menus */
-    left: auto;
-    
+
+.portrait{
+    margin-right: 2rem;
 }
 
-#menu-deroulant ul li a:hover{
-    color:white;
-}
 
-.menu{
-    line-height: 3rem;
-}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .header {
       display:flex;
       flex-flow: wrap;
@@ -91,4 +80,31 @@ body{
         font-size: 2rem;
         text-align: center;
     }
+
+    .header{
+        background-color: white;
+    }
+
+    .bg-light {
+        background-color:white !important;
+    }
+
+    .navbar{
+        z-index: 1000 ;
+    }
+
+    .presentation{
+        display:flex;
+        flex-flow: wrap;
+    }
+
+    .portrait img{
+        width:100%;
+    }
+    
   }
+
+  
+
+
+  
