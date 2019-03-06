@@ -1,0 +1,40 @@
+h1 {
+    padding-left: 0.5rem;
+}
+
+.container   {
+   padding-left: 0rem;
+}
+
+.container h3   {
+    margin-left: -1rem; 
+}
+
+.container input   {
+    width: 15rem; 
+}
+
+.form-group_send input   {
+    margin-left: -1rem;
+    width: 5rem;
+}
+
+.name {
+    margin-left: -1rem; 
+}
+.contacter {
+    width: 30rem;
+    height: 13rem;
+}
+
+.formulaire {
+    margin: 0 auto;
+    width: 60%
+}
+input {
+    border-radius:5px;
+}
+textarea {
+    border-radius: 5px;
+    margin-right: 1rem;
+}

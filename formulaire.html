@@ -12,26 +12,34 @@
 
     <title>Integration Finale</title>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <link rel="stylesheet" href="style.css">
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 </head>
 
+
 <body> 
     
-    
+        <div class="container">
     
     <!-- enTetes -->
 
 
-    <div class="container">
+    <div class="container-fluid">
+
+
+
+
+
+<body>
+
+
+
+
+    <!-- enTetes -->
 
 
 
@@ -42,23 +50,17 @@
 
 
 
+    
 
 
 
+   
 
 
 
+    
 
 
-
-
-
-
-
-
-
-
-        </div>
 
 
 
@@ -67,10 +69,40 @@
 
 
         <!-- Formulaire  -->
+  <h1>Me contacter</h1>
+    <div class="container">
+        <div class="formulaire">
+            <h3>Formulaire de contact</h3>
+            <div class="form-group name">
+                <form method="post" action="...">
+                    <label for="name">Votre nom (obligatoire)</label><br>
+                    <input id="name" type="text" name="nom" required />
+                </form>
+            </div>
 
+            <div class="form-group row email">
+                <form method="post" action="...">
+                    <label for="email">Votre email (obligatoire)</label>   <br>
+                    <input id="email" type="text" name="email" required />
+                </form>
+            </div>
 
+            <div class="form-group row object">
+                <form method="post" action="...">
+                    <label for="object" >Objet</label><br>
+                    <input id="object" type="text" name="objet" required />
+                </form>
+            </div>
 
+            <div class="form-group row text">
+                <textarea class="contacter" name="contacter" id="contacter"></textarea>
+            </div>
 
+            <div class="form-group_send">
+                <input class="envoyer" type="submit" value="envoyer" />
+            </div>
+        </div>
+    </div>
 
 
 
@@ -82,6 +114,7 @@
 
 
 
+    <!-- Fin formulaire -->
 
 
 
@@ -102,7 +135,6 @@
 
 
 
-        <!-- Fin formulaire -->
 
 
 
@@ -110,9 +142,9 @@
 
 
 
-<!-- Footer -->
 
 
+        
 
 
 
@@ -120,14 +152,32 @@
 
 
 
+<!-- Debut footer -->
 
 
 
+    
 
 
+<div id="footer">
+        <div>
+            <p id="texte-footer">© 2019 - Les îles de méditérannée - Mentions légales : Ce site est édité par les globes Wilders - Tout droit reservé<a href="formulaire.html/"></a>
+            
+                <div class="row no-gutters social">
+                    <div id="col-1"><p>RETROUVEZ-MOI SUR</p></div>  
+                </div> 
 
+                <div class="row no-gutters position-icone">
+                    <div class="col-1 taille"><a href="http://www.facebook.com/" target="_blank" title="icone-social-facebook"><img src="https://image.noelshack.com/fichiers/2019/10/3/1551879581-fb-couleur.png" alt="facebook-icone" height="40px" width="40px"/></a></div>
+                    <div class="col-1 offset-0.5 taille"><a href="https://twitter.com/?lang=fr" target="_blank" title="icone-social-twitter"><img src="https://image.noelshack.com/fichiers/2019/10/3/1551879637-twitter-couleur.png" alt="twitter-icone" height="40px" width="40px" /></a></div>
+                    <div class="col-1 offset-0.5 taille"><a href="https://www.instagram.com/?hl=fr" target="_blank" title="icone-social-twitter"><img src="https://image.noelshack.com/fichiers/2019/10/3/1551879615-instagram.png" alt="instagram-icone" height="40px" width="40px" /></a></div>
+                </div>
+        </div>
+    </div>
+    <!-- Fin footer -->
 
 
+</div>
 
 
 
@@ -136,42 +186,22 @@
 
 
 
+    
 
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
 
-<!-- FIn footer -->
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-
-        crossorigin="anonymous"></script>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-
-        crossorigin="anonymous"></script>
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-        <script>
-
-            $('#carousel-example-generic').carousel({
-
-                interval: 2000,
-
-                pause: null
-
-            })
-
-        </script>
-
+        
     </body>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    
+
+</body>
 
 </html>
