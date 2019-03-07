@@ -1,0 +1,23 @@
+/* CSS pour les pages */
+
+.carousel {
+    margin-top: 20px;
+}
+.carousel-item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.carousel-item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+.carousel-item img {
+	width: 100%;
+}
+
+.col-sm-6 h2{
+	margin-top: 10px;
+}
+
+/* fin du CSS pour les pages */

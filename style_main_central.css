@@ -10,7 +10,23 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.carousel-item {
 
+    height: 100vh;
+
+    min-height: 350px;
+
+    background: no-repeat center center scroll;
+
+    -webkit-background-size: cover;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    background-size: cover;
+
+  }
 
 .card-header{
     background-color: #7784E4;
