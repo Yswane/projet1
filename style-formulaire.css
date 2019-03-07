@@ -27,6 +27,12 @@ h1 {
 .name {
     margin-left: -1rem;
 }
+<<<<<<< HEAD
+=======
+.form-group_send input {
+    width: 5rem;
+}
+>>>>>>> d5af3826a06e6d6816cef26695b08946bafefb52
 
 input {
     border-radius: 5px;
@@ -35,10 +41,16 @@ input {
 textarea {
     border-radius: 5px;
     margin-right: 1rem;
+<<<<<<< HEAD
+=======
+    width: 25rem;
+    height: 10rem;
+>>>>>>> d5af3826a06e6d6816cef26695b08946bafefb52
 }
 
 @media screen and (max-width:768px) {
     .container-fluid {
+<<<<<<< HEAD
         padding-left: 3rem;
     } 
 }
@@ -49,3 +61,15 @@ textarea {
     padding-left: 10rem;
     }
 }
+=======
+        padding-left: 2rem;
+        
+    } 
+}
+
+@media screen and (min-width:768px) {
+    .container-fluid {
+    max-width: 50rem;
+    padding-left: 10rem;
+}
+>>>>>>> d5af3826a06e6d6816cef26695b08946bafefb52
