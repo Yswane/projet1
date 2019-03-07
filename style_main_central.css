@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+.card-header{
+    background-color: #7784E4;
+}
+
+.card{
+    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    border: none;
+   
+
+}
+.presentation{ 
+    padding: 2rem 2rem 2rem 2rem;  
+    display:flex;
+    justify-content:space-around;
+   
+}
+
+.text-center{
+    text-align:center !important;
+}
+
+.presentation img{
+    border-radius: 0.3rem;
+}
+
+.portrait{
+    margin-right: 2rem;
+}
+
+.btn-success{
+    background-color: #7784E4;
+    border-color:grey !important;
+}
+
+.btn-succes:hover{
+    background-color:#0251BA !important; 
+
+}
+ 
+.card-image{
+    opacity: 0.8;
+}
+
+.card-image:hover{
+    opacity:1;
+}
+
+.card-title h3{
+    text-align: center;
+    
+}
+
+.pb-3{
+    padding-top: 3rem !important;
+  
+}
+
+.pt-5, .py-5 {
+    padding-top: 0rem !important;
+}
+
+.pr-4, .px-4 {
+    padding-top: 0rem !important;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem !important;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 0rem !important;
+}
+
+.col-md-6{
+    padding-right: 3px;
+    padding-left: 6px; 
+}
+
+.card-image2{
+    background-image: url("https://image.noelshack.com/fichiers/2019/10/3/1551882183-corse.jpg");
+}
+
+
+@media screen and (max-width: 900px) {
+    .header {
+      display:flex;
+      flex-flow: wrap;
+    }
+
+    .title_blog h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .header{
+        background-color: white;
+    }
+
+    .bg-light {
+        background-color:white !important;
+    }
+
+    .navbar{
+        z-index: 1000 ;
+    }
+
+    .presentation{
+        display:flex;
+        flex-flow: wrap;
+    }
+
+    .portrait img{
+        width:100%;
+    }
+    
+  }
+
+  
+
+
+  

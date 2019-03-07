@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0; /*pour centrer les "cards"*/
+}
+
+.container {
+    padding: 0;
+}
+
+.containerCards {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: flex-start;
+    width: 100vw;
+}
+
+.cardM {
+    margin: 1rem auto;
+    width: 20vw;
+}
+
+.cardTxt {
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .containerCards {
+        flex-flow: wrap column;   /*‘flex-direction’> || <‘flex-wrap’>*/
+    }
+    .cardM {
+        margin: 0.5rem auto;
+    }
+}
