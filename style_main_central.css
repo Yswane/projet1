@@ -109,14 +109,16 @@ body{
 
 .card-image2{
     background-image: url("https://image.noelshack.com/fichiers/2019/10/3/1551882183-corse.jpg");
+
+}
+
+.card-image2:hover{
+    opacity:0.8;
 }
 
 
 @media screen and (max-width: 900px) {
-    .header {
-      display:flex;
-      flex-flow: wrap;
-    }
+    
 
     .title_blog h1{
         font-size: 2rem;
