@@ -21,3 +21,52 @@
 }
 
 /* fin du CSS pour les pages */
+
+
+
+
+/* css Farouk baleares */
+
+.taille img{
+	height:30px; 
+	width:30px;
+}
+
+.container {
+    padding: 0;
+}
+
+.containerCards {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: flex-start;
+	width: 100vw;
+	margin-bottom: 8rem;
+}
+
+.cardM {
+    margin: 1rem auto;
+    width: 20vw;
+}
+
+.cardTxt {
+    text-align: center;
+}
+
+#footer{
+	background: rgba(0, 0, 0, 0.8);
+	color:white;
+	font-size: 0.7rem;
+	
+}
+
+@media screen and (max-width: 768px) {
+    .containerCards {
+        flex-flow: wrap column;   /*‘flex-direction’> || <‘flex-wrap’>*/
+    }
+    .cardM {
+        margin: 0.5rem auto;
+    }
+}
+
+

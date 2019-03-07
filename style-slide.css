@@ -1,0 +1,19 @@
+.cd-img-cover {
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:500px;
+}
+
+
+.btn.btn-primary-plus {
+    color: #fff;
+    background-color: #ff99cc;
+    border-color: #ff99cc;
+}
+
+.btn.btn-primary-plus:hover {
+    color: #fff;
+    background-color: red;
+    border-color: #ff99cc;
+}

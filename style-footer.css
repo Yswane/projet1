@@ -11,6 +11,19 @@
     border: 2px groove black;    
 }
 
+.taille img{
+	height:30px; 
+	width:30px;
+}
+
+#footer{
+	background: rgba(0, 0, 0, 0.8);
+	color:white;
+	font-size: 0.7rem;
+	
+}
+
+
 
 
 .social {
