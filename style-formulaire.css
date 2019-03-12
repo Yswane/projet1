@@ -1,5 +1,7 @@
 h1 {
     padding-left: 0.5rem;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
 }
 
 .container-fluid {
@@ -17,6 +19,7 @@ h1 {
 .formulaire {
     max-width: 60rem;
     margin: 0 auto;
+    margin-bottom: 15rem;
 }
 
 .form-group_send {

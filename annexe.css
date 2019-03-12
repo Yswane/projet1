@@ -1,0 +1,136 @@
+/*NAVBAR*/
+.contentnavM {
+    font-size: 1.6rem;
+}
+
+.bioM {
+    font-family: 'Bilbo', cursive;
+    font-size: 1.5rem;
+}
+
+.titleM {
+    font-family: 'Kristi', cursive;
+    font-size: 8rem;              /*changer taille pour le responsive*/
+}
+
+.navMM {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    margin-top: 0;
+    background-color: transparent !important;
+    /*  margin-bottom: -400px; Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+
+.nav-item {
+    font-family: 'KoHo', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 1rem 0;
+}
+
+ /* CUSTOMIZE THE CAROUSEL-------- */
+
+/* Carousel base class */
+.titleIM {
+    font-size: 6rem;
+}
+
+.carousel {
+    margin-bottom: 60px;
+}
+  
+.carousel .container {
+    position: relative;
+    z-index: 9;
+}
+
+/*footer*/
+
+.conatinerFooter {
+    display: flex;
+    justify-content: center;
+}  
+
+.containerContact {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.icons {
+    align-self: center;
+}
+
+.contactM, .legalmentionM, .accueil {
+    align-self: center;
+    color:  rgb(54, 54, 61);
+    padding-top: 1rem;
+}
+
+.contactM a {
+    color:  rgb(54, 54, 61);
+    text-decoration: none;
+}
+
+@media screen and (max-width: 760px) {
+    .titleM {
+        font-size: 1.3rem;
+        font-family: cursive;
+    }
+
+    .contentnavM {
+        font-size: 1rem;
+    }
+
+    footer {
+        margin-left: -6000px;
+    }
+}
+
+
+/* pages îles */
+
+/* navbar */
+.navIles {
+    background-image: url(https://image.noelshack.com/fichiers/2019/10/7/1552232248-texturemer-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navIles {
+    background-color: white !important;
+}
+
+.descriptionIle {
+    margin-top: 5rem; 
+}
+
+.islandM {
+    display: flex;
+    justify-content: center;
+}
+
+.titleIles {
+    color:#74A48A;
+    font-size: 1.5rem;
+}
+
+.subtitleM {
+    font-family: 'Bilbo', cursive;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family: 'KoHo', sans-serif;
+    font-size: 1rem;
+}
+
+img {
+    border-radius: 4px;
+}
+
+.vignette {
+    border-radius:50px;
+}

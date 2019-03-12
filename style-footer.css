@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     border: 2px groove black;    
+    
 }
 
 .taille img{
@@ -19,10 +20,23 @@
 #footer{
 	background: rgba(0, 0, 0, 0.8);
 	color:white;
-	font-size: 0.7rem;
+	font-size: 0.9rem;
 	
 }
 
+.form-group_newletter {
+
+    text-align: center;
+
+    margin-bottom: 0.2rem;
+
+}
+
+.form-group_newletter input {
+
+    padding-right: 1.5rem;
+
+}
 
 
 
