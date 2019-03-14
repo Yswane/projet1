@@ -1,8 +1,5 @@
 /* CSS pour les pages */
 
-.carousel {
-    margin-top: 20px;
-}
 .carousel-item .thumb {
 	width: 25%;
 	cursor: pointer;
