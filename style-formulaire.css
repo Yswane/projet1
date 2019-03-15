@@ -1,51 +1,204 @@
-h1 {
-    padding-left: 0.5rem;
-}
-
-.container-fluid {
-    padding-left: 1.5rem;
-}
-
-.container-fluid h3 {
-    margin-left: -1rem;
-}
-
-.container-fluid input {
-    width: 15rem;
-}
-
-.formulaire {
-    max-width: 60rem;
-    margin: 0 auto;
-}
-
-.form-group_send {
-    margin-left: -1rem;
-    border-radius: 10rem;
-}
-
-.name {
-    margin-left: -1rem;
-}
-
-input {
-    border-radius: 5px;
-}
-
-textarea {
-    border-radius: 5px;
-    margin-right: 1rem;
-}
-
-@media screen and (max-width:768px) {
-    .container-fluid {
-        padding-left: 3rem;
-    } 
-}
-
-@media screen and (min-width:769px) {
-    .container-fluid {
-    max-width: 50rem;
-    padding-left: 10rem;
+section {
+    position: relative;
+    height: 100%;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -2.6rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    /* padding-top: 20rem; */
+    
+  }
+  
+  section video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  section .container {
+    position: relative;
+    z-index: 2;
+  }
+  
+  section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+  }
+  
+  @media screen and (max-width:767px) {
+    section {
+      background-image: url('http://image.noelshack.com/fichiers/2019/11/3/1552488847-beautiful-boulders-cascade-927414.jpg') ;
     }
+    video {
+      display: none;
+    }
+    
+  }
+  
+  
+  
+  h1 {
+      padding-left: 0.5rem;
+  }
+  
+  .container h3 {
+      margin-left: -1rem;
+  }
+  
+  
+  .formulaire {
+      width: 20rem;
+      margin: 0 auto;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      padding-left: 2rem;
+  }
+  
+  .form-group_send {
+      margin-left: -1rem;
+      border-radius: 10rem;
+  }
+  
+  .name {
+      margin-left: -1rem;
+  }
+  
+  input {
+      border-radius: 5px;
+      width: 20rem;
+  }
+  
+  textarea {
+      border-radius: 5px;
+      width: 30rem;
+      height: 10rem;
+  }
+  @media screen and (max-width:428px) {
+    .display-3 {
+        font-size: 3.2rem;
+    }
+}
+    
+@media screen and (max-width:380px) {
+    textarea {
+        max-width: 17rem;
+
+    }
+    input {
+      max-width: 17rem;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .w-100 {
+        width: 2rem;
+    }
+}
+
+a.accueil {
+    padding-top: 2.5rem;
+}
+
+/* Modal CSS */
+
+#myBtn {
+  margin-left: 0rem;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-header {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  color: white;
+}
+
+.modal-header h2 {
+  text-align: left;
+}
+
+.modal-body {
+  padding: 2px 16px;
+  color: black;
+}
+
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  padding:0;
+  margin:auto;
+  margin-top: 10rem;
+  border: 1px solid #888;
+  width: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+}
+
+@-webkit-keyframes animatetop {
+  from {
+      top: -300px;
+      opacity: 0
+  }
+
+  to {
+      top: 0;
+      opacity: 1
+  }
+}
+
+@keyframes animatetop {
+  from {
+      top: -300px;
+      opacity: 0
+  }
+
+  to {
+      top: 0;
+      opacity: 1
+  }
+}
+
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
