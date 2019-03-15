@@ -30,6 +30,11 @@
     
 }
 
+h5.titleIM  {
+    font-size: 5rem;
+    /* font-family: 'koho'; */
+}
+
 .navMM {
     position: absolute;
     top: 0;
