@@ -263,3 +263,11 @@ body {
         }
     
     }
+
+
+    /* ANIMATION JS VIGNETTES*/
+
+    #imageJs1, #imageJs2, #imageJs3, #imageJs4, #imageJs5 {
+        visibility: hidden;
+    }
+    
