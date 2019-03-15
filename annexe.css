@@ -11,7 +11,7 @@
 
 .islandM h2 {
     position: absolute;
-    left: 860px;
+    left: 1000px;;
     top: -140px;
     color:#74A48A;
     font-size: 1.5rem;
@@ -30,6 +30,11 @@
     
 }
 
+h5.titleIM  {
+    font-size: 5rem;
+    /* font-family: 'koho'; */
+}
+
 .navMM {
     position: absolute;
     top: 0;
@@ -46,6 +51,11 @@
     font-size: 1.3rem;
     margin: 0 2rem 0;
     
+}
+
+.navbar-expand-lg .navbar-nav {
+    
+    margin: 0 auto;
 }
 
 @media screen and (max-width: 1200px) {
@@ -82,7 +92,7 @@
     }
     .islandM h2 {
         position: 0;
-        left: 0;
+        left: -1rem;
         top: 0;
     }
 }
@@ -97,7 +107,7 @@
     }
     .islandM h2 {
         position: 0;
-        left: 0;
+        left: -0.8;
         top: 0;
     }
 } */
