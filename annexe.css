@@ -69,9 +69,11 @@
         font-size: 1.5rem;
     }
     .islandM h2 {
+
         position: 0;
         left: 0;
         top: 0;
+        
     }
 
 
@@ -87,7 +89,7 @@
     }
     .islandM h2 {
         position: 0;
-        left: 0;
+        left: -1rem;
         top: 0;
     }
 }
@@ -100,11 +102,7 @@
         
         font-size: 1rem;
     }
-    .islandM h2 {
-        position: 0;
-        left: 0;
-        top: 0;
-    }
+    
 } */
 
 
