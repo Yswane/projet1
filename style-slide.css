@@ -118,8 +118,9 @@ body {
 
 .defile {
 
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: transparent;
+    font-size: 1.2rem;
 
 }
 
