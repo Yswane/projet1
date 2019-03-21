@@ -1,3 +1,151 @@
+
+body {
+
+    margin: 0;
+
+    padding: 0; /*pour centrer les "cards"*/
+
+}
+
+.container {
+
+    padding: 0;
+
+}
+
+.containerCards {
+
+    display: flex;
+
+    flex-flow: nowrap;
+
+    justify-content: flex-start;
+
+    width: 100vw;
+
+}
+
+.cardM {
+
+    margin: 1rem auto;
+
+    width: 20vw;
+
+}
+
+.cardTxt {
+
+    text-align: center;
+
+}
+
+.containerVignettes {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    margin: 2rem auto;
+
+}
+
+.containerM {
+
+margin-top: 3rem;
+
+}
+
+.vignette:hover {
+
+    -webkit-filter: sepia(90%); /* ou brightness*/
+
+}
+
+.vignette {
+
+    -webkit-filter: none;
+
+}
+
+.séparationVignettes {
+    margin-top: 5rem;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.item1Vignette {
+
+    border-bottom: solid 1px rgb(221, 217, 217);
+
+    color: transparent;
+
+    height: 1rem;
+
+}
+
+.item2VIgnette {
+
+    font-family: 'KoHo', 'cursive';
+
+    font-size: 2rem;
+
+    font-weight: none;
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .containerCards {
+
+        flex-flow: wrap column;   /*‘flex-direction’> || <‘flex-wrap’>*/
+
+    }
+
+    .cardM {
+
+        margin: 0.5rem auto;
+
+    }
+
+    .containerVignettes {
+
+        flex-flow: wrap column;
+
+        align-items: center;
+
+    }
+
+    .vignette {
+
+        padding: 0.5rem 0 0.5rem;
+
+    }
+
+    .séparationVignettes {
+
+        flex-flow: wrap column;
+
+        align-items: center;
+
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+---------------------
+
+
 body {
     margin: 0;
     padding: 0; /*pour centrer les "cards"*/
@@ -23,11 +171,104 @@ body {
     text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-    .containerCards {
-        flex-flow: wrap column;   /*‘flex-direction’> || <‘flex-wrap’>*/
-    }
-    .cardM {
-        margin: 0.5rem auto;
-    }
+.containerVignettes {
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    margin: 2rem auto;
+
 }
+
+.containerM {
+
+    margin-top: 3rem;
+    
+    }
+    
+    .vignette:hover {
+    
+        -webkit-filter: sepia(90%); /* ou brightness*/
+    
+    }
+    
+    .vignette {
+    
+        -webkit-filter: none;
+    
+    }
+    
+    .séparationVignettes {
+    
+        display: flex;
+    
+        justify-content: center;
+    
+    }
+    
+    .item1Vignette {
+    
+        border-bottom: solid 1px rgb(221, 217, 217);
+    
+        color: transparent;
+    
+        height: 1rem;
+    
+    }
+    
+    /* .item2VIgnette {
+    
+        font-family: cursive;
+    
+        font-size: 1rem;
+    
+        font-weight: none;
+    
+    }
+     */
+    @media screen and (max-width: 768px) {
+    
+        .containerCards {
+    
+            flex-flow: wrap column;   /*‘flex-direction’> || <‘flex-wrap’>*/
+    
+        }
+    
+        .cardM {
+    
+            margin: 0.5rem auto;
+    
+        }
+    
+        .containerVignettes {
+    
+            flex-flow: wrap column;
+    
+            align-items: center;
+    
+        }
+    
+        .vignette {
+    
+            padding: 0.5rem 0 0.5rem;
+    
+        }
+    
+        .séparationVignettes {
+    
+            flex-flow: wrap column;
+    
+            align-items: center;
+    
+        }
+    
+    }
+
+
+    /* ANIMATION JS VIGNETTES*/
+
+    #imageJs1, #imageJs2, #imageJs3, #imageJs4, #imageJs5 {
+        visibility: hidden;
+    }
+    
