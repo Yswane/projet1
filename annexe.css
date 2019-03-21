@@ -74,9 +74,11 @@ h5.titleIM  {
         font-size: 1.5rem;
     }
     .islandM h2 {
+
         position: 0;
         left: 0;
         top: 0;
+        
     }
 
 
@@ -130,20 +132,11 @@ h5.titleIM  {
 }
 
 
-
-
-
-
-
-
-
 /* pages îles */
 
 /* navbar */
 .navIles {
-    background-image: url('https://image.noelshack.com/fichiers/2019/10/7/1552232248-texturemer-2.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #5eb794 !important;
 }
 
 .navIles1 {
@@ -167,8 +160,12 @@ h5.titleIM  {
 }
 
 .navIles3 {
+    background-color: #758ea8 !important;
+}
 
-    background-image: url('https://image.noelshack.com/fichiers/2019/11/1/1552330656-purple-1.jpg');
+.navIles3 {
+
+   
 
     background-repeat: no-repeat;
 
@@ -176,9 +173,7 @@ h5.titleIM  {
 
 }
 
-.navIles {
-    background-color: white !important;
-}
+
 
 .descriptionIle {
     margin-top: 5rem; 
@@ -187,7 +182,10 @@ h5.titleIM  {
 .islandM {
     display: flex;
     justify-content: center;
+   
 }
+
+
 
 .islandM1{
 
@@ -200,6 +198,7 @@ h5.titleIM  {
   
 
 }
+
 
 .titleIles {
     color:#74A48A;
