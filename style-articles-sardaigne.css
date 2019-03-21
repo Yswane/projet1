@@ -48,15 +48,15 @@
 
     /*to define a background image*/
     .ch-img-1 { 
-        background-image: url(https://image.noelshack.com/fichiers/2019/12/3/1553093270-pecorino-aux-tuffes-1.jpg);
+        background-image: url(https://image.noelshack.com/fichiers/2019/12/3/1553111880-webp-net-resizeimage-6.jpg);
     }
     
     .ch-img-2 { 
-        background-image: url(https://image.noelshack.com/fichiers/2019/11/1/1552330439-cannoli-siciliani-1.jpg);
+        background-image: url(https://image.noelshack.com/fichiers/2019/11/1/1552328618-citron-1.png);
     }
     
     .ch-img-3 { 
-        background-image: url(https://image.noelshack.com/fichiers/2019/11/1/1552332161-melon-1.jpg);
+        background-image: url(https://image.noelshack.com/fichiers/2019/12/3/1553112051-webp-net-resizeimage-7.jpg);
     }
 
     /* description element will be positioned absolutely and transparent background by setting an RGBA value*/

@@ -17,7 +17,7 @@
 
     <link rel="stylesheet" href="style-footer.css">
 
-    <link rel="stylesheet" href="style-articles.css">
+    <link rel="stylesheet" href="style-articles-baleares.css">
 
     <link rel="stylesheet" href="style-jo.css">
 
@@ -63,8 +63,7 @@
 
                                 <li class="nav-item active navM">
 
-                                    <a class="nav-link nav-item" href="index.html"><span class="shadow-navbar">Accueil
-                                            </<span class="sr-only"></span></a>
+                                    <a class="nav-link nav-item" href="index.html"><span class="shadow-navbar sr-only">Accueil</span></a>
 
                                 </li>
 
@@ -242,116 +241,44 @@
 
     <!-- Fin titre H1 image centrale-->
 
-    <!-- Vignettes -->
+<!-- test animation V-->
+<section class="containerVignettes" id="containerVignettes">
+    <ul class="ch-grid">
+        <li>
+            <div class="ch-item ch-img-1" id="imageJs1" data-toggle="modal" data-target="#vignette1">
+                <div class="ch-info">
+                    <h3>Los pimientos</h3>
+                    <p>Ca pique !<a href="https://www.royalchill.com/2014/06/23/tapas-empanadillas-tomates-thon-poivrons-recette-boulangerie/" target="_blank">www.royalchill.com</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="ch-item ch-img-2" id="imageJs2" data-toggle="modal" data-target="#vignette2">
+                <div class="ch-info">
+                    <h3>Huile d'olive</h3>
+                    <p>Savoureuse...<a href="http://www.olidemallorca.es/fr/" target="_blank">www.olidemallorca.es</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="ch-item ch-img-3" id="imageJs3" data-toggle="modal" data-target="#vignette3">
+                <div class="ch-info">
+                    <h3>El trempo</h3>
+                    <p>Grande simplicité<a href="http://recettes-series.com/specialites-culinaires-majorque/" target="_blank">www.recettes-series.com</a></p>
+                </div>
+            </div>
+        </li>
+    </ul>
+    </section>
 
-    <div class="séparationVignettes">
+   
+      
 
-        <p class="item1Vignette">--------------------------------------------------------------------</p>
 
-        <h2 class="item2VIgnette">Produits du terroir</h2>
 
-        <p class="item1Vignette">--------------------------------------------------------------------</p>
-
-    </div>
-
-    <!--vignette - modal-->
-
-    <section class="containerVignettes">
-
-        <!-- Button trigger modal -->
-
-        <div data-toggle="modal" data-target="#vignette1"><img
-                src="https://image.noelshack.com/fichiers/2019/10/7/1552247067-cuir-1.jpg" alt="cuir"
-                class="rounded-circle vignette" id="imageJs1"></div>
-
-        <!-- Modal -->
+        <!-- Modal vignette1-->
 
         <div class="modal fade" id="vignette1" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-            aria-hidden="true">
-
-            <div class="modal-dialog modal-dialog-scrollable" role="document">
-
-                <div class="modal-content">
-
-                    <div class="modal-header">
-
-                        <h5 class="modal-title" id="exampleModalScrollableTitle">Zapatos Avarcas</h5>
-
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-
-                            <span aria-hidden="true">&times;</span>
-
-                        </button>
-
-                    </div>
-
-                    <div class="modal-body">
-
-                        <p>Mes avarcas traditionnelles <em>(aussi appelées Minorquines)</em>. Après une longue journée
-                            de rendonnées, j'enfile bonne vieille paire d'avarcas !</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-        <!-- Button trigger modal -->
-
-        <div data-toggle="modal" data-target="#vignette2"><img
-                src="https://image.noelshack.com/fichiers/2019/10/7/1552245118-terrecuite.jpg" alt="céramique"
-                class="rounded-circle vignette" id="imageJs2"></div>
-
-        <!-- Modal -->
-
-        <div class="modal fade" id="vignette2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
-            aria-hidden="true">
-
-            <div class="modal-dialog modal-dialog-scrollable" role="document">
-
-                <div class="modal-content">
-
-                    <div class="modal-header">
-
-                        <h5 class="modal-title" id="exampleModalScrollableTitle">Céramique</h5>
-
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-
-                            <span aria-hidden="true">&times;</span>
-
-                        </button>
-
-                    </div>
-
-                    <div class="modal-body">
-
-                        <p>Le travail de la céramique et de la terre est aussi présent dans l’île. Les « Gerrettes »
-                            (soit des jarres décorées) sont des pièces artisanales caractéristiques de la villede
-                            Felanitx à Majorque et sont considérés comme d’authentiques trésors.</p>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-
-        <!-- Button trigger modal -->
-
-        <div data-toggle="modal" data-target="#vignette3"><img
-                src="https://image.noelshack.com/fichiers/2019/10/7/1552245540-piment-1.jpg" alt="piment"
-                class="rounded-circle vignette" id="imageJs3"></div>
-
-        <!-- Modal -->
-
-        <div class="modal fade" id="vignette3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
             aria-hidden="true">
 
             <div class="modal-dialog modal-dialog-scrollable" role="document">
@@ -386,15 +313,9 @@
 
 
 
-        <!-- Button trigger modal -->
+        <!-- Modal vignette2-->
 
-        <div data-toggle="modal" data-target="#vignette4"><img
-                src="https://image.noelshack.com/fichiers/2019/10/7/1552246083-olive3.jpg" alt="olives"
-                class="rounded-circle vignette" id="imageJs4"></div>
-
-        <!-- Modal -->
-
-        <div class="modal fade" id="vignette4" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+        <div class="modal fade" id="vignette2" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
             aria-hidden="true">
 
             <div class="modal-dialog modal-dialog-scrollable" role="document">
@@ -430,15 +351,9 @@
 
 
 
-        <!-- Button trigger modal -->
+        <!-- Modal vignette3-->
 
-        <div data-toggle="modal" data-target="#vignette5"><img
-                src="https://image.noelshack.com/fichiers/2019/10/7/1552246566-tomatoes-plain-and-sliced.jpg"
-                alt="tomate" class="rounded-circle vignette" id="imageJs5"></div>
-
-        <!-- Modal -->
-
-        <div class="modal fade" id="vignette5" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
+        <div class="modal fade" id="vignette3" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle"
             aria-hidden="true">
 
             <div class="modal-dialog modal-dialog-scrollable" role="document">
