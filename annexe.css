@@ -64,7 +64,14 @@ h5.titleIM  {
         font-family: 'Kristi', cursive;        
         text-shadow: 2px 1px 1px black;
         
+        
     }
+
+ @media screen and (max-width: 1200px) {
+     .titleIsland {
+         display: none;
+     }
+ }   
 
     .nav-item {
         margin: 0 0rem 0;
