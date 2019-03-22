@@ -83,7 +83,7 @@ section {
   
   input {
       border-radius: 5px;
-      width: 20rem;
+      width: 19rem;
   }
   
   textarea {
@@ -121,6 +121,12 @@ a.accueil {
 
 #myBtn {
   margin-left: 0rem;
+
+}
+
+.formulaire button:hover{
+  background-color:lightslategray;
+  color:white;
 }
 .modal {
   display: none;
