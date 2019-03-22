@@ -9,6 +9,12 @@
     color: white;
 }
 
+.navbar-dark .navbar-brand {
+    color: #fff;
+    margin-left: 2rem;
+}
+
+
 .islandM h2 {
     position: absolute;
     left: 1000px;;
@@ -30,6 +36,7 @@
     
 }
 
+
 h5.titleIM  {
     font-size: 5rem;
     /* font-family: 'koho'; */
@@ -48,14 +55,24 @@ h5.titleIM  {
 
 .nav-item {
     font-family: 'KoHo', sans-serif;
-    font-size: 1.3rem;
-    margin: 0 2rem 0;
-    
+    font-size: 1.2rem;
+    margin: 0px 1rem 0;
 }
 
 .navbar-expand-lg .navbar-nav {
     
     margin: 0 auto;
+}
+
+.defile a{
+    text-decoration: none;
+    font-style: italic;
+    font-family: 'KoHo', sans-serif;
+}
+
+.defile a:hover{
+    color:#674692;
+    font-style:italic;
 }
 
 @media screen and (max-width: 1200px) {
@@ -78,7 +95,7 @@ h5.titleIM  {
     }
 
     .shadow-navbar {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .islandM h2 {
 
@@ -89,6 +106,7 @@ h5.titleIM  {
     }
 
 
+}
     
 
 @media screen and (max-width: 415px) {
@@ -205,6 +223,8 @@ h5.titleIM  {
   
 
 }
+
+
 
 
 .titleIles {
