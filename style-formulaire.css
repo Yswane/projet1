@@ -184,7 +184,7 @@ a.accueil {
 
 textarea {
     border-radius: 5px;
-    margin-right: 1rem;
+    /* margin-right: 1rem; */
     width: 25rem;
     height: 10rem;
 }
