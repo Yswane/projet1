@@ -9,6 +9,10 @@
     color: white;
 }
 
+.navbar-dark .navbar-brand {
+    color: #fff;
+    margin-left: 2rem;
+}
 
 
 .islandM h2 {
