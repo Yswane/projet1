@@ -60,9 +60,9 @@
             
             <div class="row">
             <div class="col-12 col-sm">
-            <nav class="navbar navbar-dark navbar-expand-lg navbar-light navMM " id="accueil">
+            <nav class="navbar navbar-dark navbar-expand-lg navbar-light navMM animated " id="accueil">
                 <!--fixed-top  bg-dark-->
-                <a class="navbar-brand titleM" href="index.html">Globe Wilder</a>
+                <a class="navbar-brand titleM animated fadeInLeft" href="index.html">Globe Wilder</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -105,7 +105,7 @@
 
 
     <!-- Carousel wrapper-->
-    <div class="bd-example">
+    <div class="bd-example animated fadeInDown">
         <!-- Carousel -->
         <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
             <!-- Carousel indicators -->
@@ -187,7 +187,7 @@
 
     <!-- Debut bio bloguer -->
 
-    <div class="container-fluid">
+    <div class="container-fluid animated fadeInUp">
 
         <div class="card join" id="aboutMe">
 
@@ -196,9 +196,20 @@
       </div>-->
             <div class="presentation">
                 <div class="portrait">
-                    <img src="https://image.noelshack.com/fichiers/2019/10/7/1552213067-portrait.jpg" alt="portrait"
-                        title="Hello ! Moi c'est Abdou, bienvenue sur mon blog !!" class="rounded-circle" />
+                    <img id="myImg" src="https://image.noelshack.com/fichiers/2019/10/7/1552213067-portrait.jpg" alt="">
                 </div>
+                <div id="imageModal" class="imgModal">
+                        
+                        
+  
+                    <span class="imgClose" onclick="document.getElementById('imageModal').style.display='none'">&times;</span>
+                    
+                   <img class="image-modal-content" id="img01">
+                    <p class="instagro"><i class="fas fa-heart"></i> 100<i class="fas fa-user-alt"></i>45<i class="fas fa-comment"></i>7</p>
+                    <div id="image-modal-caption">
+                            
+                    </div>
+                  </div>
                 <div class="description">
                 
                     <p class="text-justify bioM">
@@ -362,25 +373,19 @@ Fin bio blogueur -->
                     <p>RETROUVEZ-MOI SUR</p>
                 </div>
             </div>
-            <div class="row no-gutters">
-                <div class="col-12 taille"><a href="http://www.facebook.com/" target="_blank"
-                        title="icone-social-facebook"><img
-                            src="https://image.noelshack.com/fichiers/2019/11/3/1552487618-facebook.png"
-                            alt="facebook-icone" /></a>
-                    <a href="https://twitter.com/?lang=fr" target="_blank" title="icone-social-twitter"><img
-                            src="https://image.noelshack.com/fichiers/2019/11/3/1552487618-twitter.png"
-                            alt="twitter-icone" /></a>
-                    <a href="https://www.instagram.com/?hl=fr" target="_blank" title="icone-social-twitter"><img
-                            src="https://image.noelshack.com/fichiers/2019/11/3/1552487618-insta.png"
-                            alt="instagram-icone" /></a>
-                </div>
-            </div>
             <div class="col-12">
                 <a class="accueil" href="#accueil"><strong>Accueil</strong></a>
             </div>
             <div class="col-12">
                 <a class="contactM" href="formulaire.html"><strong>Contact</strong></a>
             </div>
+            <div class="main_icon">    
+                <div class="icon"> <i class="fab fa-facebook-f"></i> </div>
+                <div class="icon"> <i class="fab fa-twitter"></i> </div>
+                <div class="icon"> <i class="fab fa-instagram"></i> </div>
+                <div class="icon"> <i class="fab fa-youtube"></i> </div>
+                <div class="icon"> <i class="fab fa-google"></i> </div>
+             </div>
             <p id="texte-footer">© 2019 - Les îles de méditérannée - Mentions légales : Ce site est édité par les globes
                 Wilders - Tout droit reservé</p>
         </div>
@@ -388,7 +393,10 @@ Fin bio blogueur -->
 
     <!-- Fin footer  -->
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
             integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -402,6 +410,10 @@ Fin bio blogueur -->
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="index.js"></script> 
+
+          
 
 
 

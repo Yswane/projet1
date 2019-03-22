@@ -164,6 +164,9 @@ a.accueil {
   animation-name: animatetop;
   animation-duration: 0.4s;
 }
+.form-group_send input {
+    width: 5rem;
+}
 
 @-webkit-keyframes animatetop {
   from {
@@ -176,6 +179,28 @@ a.accueil {
       opacity: 1
   }
 }
+
+
+textarea {
+    border-radius: 5px;
+    margin-right: 1rem;
+    width: 25rem;
+    height: 10rem;
+}
+
+@media screen and (max-width:768px) {
+    .container-fluid {
+        padding-left: 2rem;
+        
+    } 
+}
+
+@media screen and (min-width:768px) {
+    .container-fluid {
+    max-width: 50rem;
+    padding-left: 10rem;
+    }
+
 
 @keyframes animatetop {
   from {
