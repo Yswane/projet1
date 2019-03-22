@@ -9,7 +9,7 @@ function myFunction() {
   console.log(window.pageYOffset);
   //console.log(document.getElementById('containerVignettes').offsetTop);
 
-  if (window.pageYOffset >= vignettePositionTop - 300) {
+  if (window.pageYOffset >= vignettePositionTop - 600) {
     
     setTimeout (function setVisibility() {
         const speed = 100;
