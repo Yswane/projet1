@@ -5,17 +5,12 @@ const vignettePositionTop = document.getElementById('containerVignettes').offset
 window.onscroll = function() {myFunction()};
 
 function myFunction() {
-
-  console.log(window.pageYOffset);
-  //console.log(document.getElementById('containerVignettes').offsetTop);
-
-  if (window.pageYOffset >= vignettePositionTop - 600) {
-    
+  if (window.pageYOffset >= vignettePositionTop - 600) {    
     setTimeout (function setVisibility() {
         const speed = 100;
         document.getElementById('imageJs1').style.visibility = 'visible';
-        }, 900);
-    
+        }, 900);    
+        
     setTimeout (function setVisibility() {
         const speed = 100;
         document.getElementById('imageJs2').style.visibility = 'visible';
