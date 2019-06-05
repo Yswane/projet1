@@ -1,0 +1,16 @@
+.titleIsland {
+    position: absolute;
+    margin-left: 1100px;
+    margin-right: 200px;
+    width: 400px;
+    height: 80px;
+}
+
+.moveIsland {
+    width: 200px;
+    height: 40px;
+    color: #74A48A;
+    font-size: 1.8rem;
+    margin: 0;
+    text-align: center;
+}

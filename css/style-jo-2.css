@@ -1,0 +1,63 @@
+/* CSS pour les pages */
+
+.carousel-item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.carousel-item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+.carousel-item img {
+	width: 100%;
+}
+
+.col-sm-6 h2{
+	margin-top: 10px;
+}
+
+/* fin du CSS pour les pages */
+
+
+
+
+/* css Farouk baleares */
+
+.taille img{
+	height:30px; 
+	width:30px;
+}
+
+.container {
+    padding: 0;
+}
+
+.containerCards {
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: flex-start;
+	width: 100vw;
+	margin-bottom: 8rem;
+}
+
+.cardM {
+    margin: 1rem auto;
+    width: 20vw;
+}
+
+.cardTxt {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .containerCards {
+        flex-flow: wrap column;   /*‘flex-direction’> || <‘flex-wrap’>*/
+    }
+    .cardM {
+        margin: 0.5rem auto;
+    }
+}
+
+
